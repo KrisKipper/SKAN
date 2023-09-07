@@ -1,27 +1,22 @@
 .main {
-
     background: white;
     padding: 20px;
     flex-grow: 1;
-
 }
 
 .flex_block {
     display: flex;
-
 }
 
 .h1Text {
     width: 817px;
     height: 144px;
-
-    font-family: 'Ferry';
+    font-family: 'Ferry', SansSerif;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0.02em;
-
     color: #000000;
 }
 
@@ -43,7 +38,7 @@
     margin-top: 40px;
 
     background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
 
@@ -51,8 +46,8 @@
     margin-left: 60px;
     margin-right: -130px;
     position: relative;
-    width: 75.22px;
-    height: 92.06px;
+    width: 75px;
+    height: 92px;
     background-image: url("../../svg/login/lock.svg");
 }
 

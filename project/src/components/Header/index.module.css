@@ -85,6 +85,7 @@
 }
 
 .button_login {
+    cursor: pointer;
     margin-left: 32px;
     width: 65px;
     height: 26px;
@@ -207,17 +208,12 @@
 }
 
 .userTextProfil {
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-
     color: #000000;
-
     opacity: 0.7;
 }
 

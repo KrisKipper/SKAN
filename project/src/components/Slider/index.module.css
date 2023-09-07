@@ -1,13 +1,9 @@
 .slider_item {
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin: 6px 20px;
     width: 380px;
     height: 225px;
-
-    margin-left: 20px;
-    margin-right: 20px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
@@ -30,5 +26,4 @@
     margin-left: 20px;
     margin-right: 20px;
     width: 318px;
-
 }

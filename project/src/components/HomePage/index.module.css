@@ -1,44 +1,35 @@
+@import url(https://fonts.googleapis.com/css2?family=Ferry&display=swap);
+@import url('https://fonts.cdnfonts.com/css/inter');
+
 :root {
     --max-hight: 1024px;
 }
 
-
 .main {
-
     background: white;
     padding: 20px;
     flex-grow: 1;
-
 }
 
 @media (max-device-width: 1400px) {
-
     .backround_img {
         display: none;
     }
-
     .bigPic {
         display: none;
 
     }
-
-
 }
-
 
 @media screen and (max-width: 1400px) {
     .backround_img {
         display: none;
     }
-
     .bigPic {
         display: none;
 
     }
-
 }
-
-
 
 .flex_block {
     display: flex;
@@ -48,54 +39,42 @@
 }
 
 .flex_block_corusel {
-
     margin-top: 109px;
     margin-left: 60px;
     margin-right: 60px;
-
 }
-
-@import url(https://myfonts.ru/myfonts?fonts=ferry);
 
 .capital_h1_text {
     width: 743px;
     height: 288px;
     left: 60px;
     top: 162px;
-
-    font-family: 'Ferry';
+    font-family: 'Ferry', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 0.01em;
-
     color: #000000;
 }
-
-@import url('https://fonts.cdnfonts.com/css/inter');
 
 .text_p_search_info {
     width: 534px;
     height: 48px;
     left: 60px;
     top: 470px;
-
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.01em;
-
     color: #000000;
 }
 
 .backround_img {
     width: 629px;
     height: 593px;
-
-
     background-image: url("../../svg/2398 1.svg");
 }
 
@@ -108,18 +87,15 @@
     height: 59px;
     left: 60px;
     top: 588px;
-
+    cursor: pointer;
     background: #5970FF;
     border-radius: 5px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 27px;
-    /* identical to box height */
-
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
 }
 
@@ -128,16 +104,12 @@
     height: 54px;
     left: 60px;
     top: 846px;
-
-    font-family: 'Ferry';
+    font-family: 'Ferry', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 45px;
     line-height: 54px;
-    /* identical to box height */
-
     letter-spacing: 0.01em;
-
     color: #000000;
 }
 
@@ -146,12 +118,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    column-gap: 37px;
+    row-gap: 43px;
 }
 
 .leftPic {
     width: 400px;
     height: 400px;
-
     background-image: url("../../svg/leftPicBlueBall.svg");
 }
 
@@ -161,7 +134,6 @@
     width: 400px;
     height: 400px;
     margin-left: 200px;
-
     background-image: url("../../svg/centrPicBlueBall.svg");
 }
 
@@ -169,7 +141,6 @@
     width: 400px;
     height: 400px;
     margin-left: 200px;
-
     background-image: url("../../svg/rightPicBlueBall.svg");
 }
 
@@ -182,10 +153,8 @@
     box-sizing: border-box;
     background: #FFFFFF;
     border: 2px solid #FFB64F;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    margin-left: 37px;
-    margin-right: 37px;
 }
 
 .tarifBlock {
@@ -195,10 +164,8 @@
     height: 540px;
     left: 512px;
     top: 2072px;
-    margin-left: 37px;
-    margin-right: 37px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
@@ -213,15 +180,13 @@
     height: 132px;
     left: 60px;
     top: 2072px;
-
     background: #FFB64F;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
 }
 
 .picLamp {
-    width: 92.24px;
-    height: 83.15px;
-
+    width: 92px;
+    height: 83px;
     background-image: url("../../svg/Lamp.svg");
 }
 
@@ -233,20 +198,16 @@
 .bigPic {
     width: 1307px;
     height: 576px;
-
     background-image: url("../../svg/bigPic.svg");
 }
 
 .textTarif {
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
-
     letter-spacing: 0.01em;
-
     color: #000000;
 }
 
@@ -255,18 +216,17 @@
 }
 
 .cost {
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.01em;
-
     color: #000000;
 }
 
 .oldCost {
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -276,7 +236,6 @@
     margin-left: 19px;
     color: #000000;
     padding-top: 10px;
-
     opacity: 0.5;
 }
 
@@ -285,27 +244,22 @@
 }
 
 .tarifBig {
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.01em;
-
     color: #000000;
 }
 
 .textTarifWithPadding {
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-
-    /* identical to box height */
-
     letter-spacing: 0.01em;
-
     margin-top: -20px;
     color: #000000;
 }
@@ -331,32 +285,27 @@
     margin-top: 3px;
     margin-left: 6px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
 }
 
 .tarifLi {
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
-
     letter-spacing: 0.01em;
     margin-top: -10px;
-
     color: #000000;
 }
 
 .tarifHead {
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.01em;
-
     color: #000000;
     margin-top: 59px;
 }
@@ -380,14 +329,14 @@
     outline: none;
     background: #D2D2D2;
     border-radius: 5px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.01em;
-
     color: #000000;
+    cursor: pointer;
 }
 
 .blue {
@@ -395,15 +344,13 @@
     height: 132px;
     left: 512px;
     top: 2072px;
-
     background: #7CE3E1;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
 }
 
 .picPro {
     width: 120px;
     height: 127px;
-
     margin-left: 50px;
     transform: rotate(-16.92deg);
     background-image: url("../../svg/proPic.svg");
@@ -419,14 +366,14 @@
     margin-top: 20px;
     background: #5970FF;
     border-radius: 5px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .black {
@@ -434,9 +381,8 @@
     height: 132px;
     left: 965px;
     top: 2072px;
-
     background: #000000;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
 }
 
 .tarifBigBlack {
@@ -444,14 +390,12 @@
     height: 36px;
     left: 995px;
     top: 2102px;
-
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
 }
 
@@ -460,26 +404,29 @@
     height: 22px;
     left: 995px;
     top: 2148px;
-
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
-
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
 }
 
 .picBusiness {
     width: 99px;
-    height: 81.09px;
+    height: 81px;
     margin-top: 20px;
     margin-left: -27px;
     margin-right: 5px;
-
     transform: matrix(-1, 0, 0, 1, 0, 0);
     background-image: url("../../svg/lapTop.svg");
+}
+
+.jtKTCe {
+    display: none !important; ;
+}
+
+.kXteup {
+    background-color: transparent;
 }

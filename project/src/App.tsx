@@ -17,8 +17,6 @@ type MyState = {
 };
 class App extends React.Component<MyProps, MyState> {
 
-
-
   constructor(props: MyProps | Readonly<MyProps>, myState: MyState) {
     super(props);
     this.state = {
@@ -27,12 +25,9 @@ class App extends React.Component<MyProps, MyState> {
   }
 
   componentDidMount() {
-    //не работает так
+    //не работает
     reduxTest()
   }
-
-
-
 
   render() {
     return (
@@ -48,7 +43,4 @@ class App extends React.Component<MyProps, MyState> {
   }
 
 }
-
-
-
 export default App;
