@@ -146,7 +146,7 @@
 }
 
 .textUser {
-    width: 121px;
+    width: 124px;
     height: 12px;
     font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
@@ -158,33 +158,41 @@
 }
 
 .textNumber {
-    width: 19px;
-    height: 17px;
-    margin-left: 10px;
-    margin-top: 9px;
-    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
     color: #000000;
 }
 
 .textNumberGreen {
-    width: 27px;
-    margin-left: 10px;
+    color: #8AC540;
+}
+
+.textNumber, .textNumberGreen {
     height: 17px;
-    margin-top: 9px;
     font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    color: #8AC540;
+    padding-left: 8px;
+    box-sizing: border-box;
 }
 
 .infoBlockMargin {
     margin-top: 15px;
+    background-color: rgba(217, 217, 217, .3);
+    height: 63px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 14px 8px 18px 10px;
+    width: 175px;
+    gap: 7px;
+}
+
+.infoBlockMargin p {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
 }
 
 .userTextProfil {
