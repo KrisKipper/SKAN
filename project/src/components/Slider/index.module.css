@@ -27,3 +27,11 @@
     margin-right: 20px;
     width: 318px;
 }
+
+.rec-arrow {
+    background: none;
+}
+
+.rec-pagination {
+    display: none !important;
+}

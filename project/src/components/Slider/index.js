@@ -2,11 +2,6 @@ import React from 'react';
 import Carousel from "react-elastic-carousel";
 import css from "./index.module.css"
 import sliderDate from "./slider-mock.json"
-
-
-
-
-
 const Slider = props => {
     //const { sliderDate } = props
     //переписать как пропс который передаем
@@ -25,19 +20,15 @@ const Slider = props => {
             carouselRef.current.goTo(0);
         }
     };
-
     const onPrevStart = (currentItem, nextItem) => {
         if (currentItem.index === nextItem.index) {
             carouselRef.current.goTo(sliderDate.length);
         }
     };
 
-
-
-    //в слайдере реализована система зацикливания 
+    //Зацикливание
     return (
-        <div  >
-
+        <div>
             <Carousel breakPoints={breakPoints}
                 //  enableAutoPlay
                 ref={carouselRef}

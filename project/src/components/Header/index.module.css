@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/inter');
 
 .main {
-
     background: #FFFFFF;
     flex-grow: 1;
-
 }
 
 .header {
@@ -25,10 +24,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
     letter-spacing: 0.01em;
-
     color: #000000;
 }
 
@@ -36,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     height: 93px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
 }
 
@@ -55,23 +51,18 @@
     left: 1129px;
     top: 37px;
     margin-top: 3px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
     letter-spacing: 0.01em;
-
     color: #000000;
-
     opacity: 0.4;
 }
 
 .loginOrRegistrate {
     margin-right: 60px;
-
     margin-top: 34px;
     display: flex;
 }
@@ -116,13 +107,10 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     margin-top: 38px;
     letter-spacing: 0.01em;
-
     color: #000000;
 }
-
 
 .loader {
     width: 24px;
@@ -145,7 +133,6 @@
 .NLoader {
     width: 24px;
     height: 24px;
-
 }
 
 @keyframes spin {
@@ -161,13 +148,12 @@
 .textUser {
     width: 121px;
     height: 12px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
     color: #000000;
-
     opacity: 0.4;
 }
 
@@ -176,14 +162,11 @@
     height: 17px;
     margin-left: 10px;
     margin-top: 9px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-
     color: #000000;
 }
 
@@ -192,14 +175,11 @@
     margin-left: 10px;
     height: 17px;
     margin-top: 9px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-
     color: #8AC540;
 }
 
@@ -208,7 +188,7 @@
 }
 
 .userTextProfil {
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -226,7 +206,6 @@
     border: 2px solid rgb(83, 79, 79);
     border-radius: 50%;
     background: rgb(8, 8, 8);
-
 }
 
 .blockProfil {
@@ -236,7 +215,6 @@
 
 
 @media (max-device-width: 930px) {
-
     .menu_item {
         display: none;
     }
@@ -245,8 +223,6 @@
         display: none;
 
     }
-
-
 }
 
 
@@ -259,5 +235,4 @@
         display: none;
 
     }
-
 }

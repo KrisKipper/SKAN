@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Ferry&display=swap);
+
 .main {
     background: white;
     padding: 20px;
@@ -11,7 +13,7 @@
 .h1Text {
     width: 817px;
     height: 144px;
-    font-family: 'Ferry', SansSerif;
+    font-family: 'Ferry', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -36,7 +38,6 @@
     height: 523px;
     margin-left: 100px;
     margin-top: 40px;
-
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
@@ -60,28 +61,24 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.02em;
-
     color: #029491;
 }
 
 .loginMenu {
-
     margin-left: 25px;
 }
 
 .loginLine {
-
     width: 151px;
     height: 2px;
     left: 895px;
     top: 214px;
-
     background: #029491;
 }
 
@@ -95,14 +92,12 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.02em;
-
     color: #C7C7C7;
 }
 
@@ -111,53 +106,43 @@
     height: 2px;
     left: 1061px;
     top: 214px;
-
     background: #C7C7C7;
 }
 
 .textLoginBox {
     width: 227px;
     height: 19px;
-
-
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.02em;
-
     color: #949494;
 }
 
 .input {
     width: 379px;
     height: 43px;
-
-
     background: #FFFFFF;
     border: 1px solid #C7C7C7;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
 }
 
 .buttonLogIn {
     width: 379px;
     height: 59px;
-
     border: none;
     outline: none;
     background: #b8bcd3;
     border-radius: 5px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 27px;
-    /* identical to box height */
-
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
 }
 
@@ -167,25 +152,21 @@
     border: none;
     outline: none;
     margin-left: 96px;
-
     background-color: #FFFFFF;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     margin-top: 7px;
-
     letter-spacing: 0.02em;
     text-decoration-line: underline;
-
     color: #5970FF;
 }
 
 .picGoogle {
-    width: 59.46px;
-    height: 19.57px;
+    width: 59px;
+    height: 19px;
     display: block;
     align-items: center;
     margin-left: auto;
@@ -206,8 +187,8 @@
 }
 
 .picFaceBook {
-    width: 59.46px;
-    height: 19.57px;
+    width: 59px;
+    height: 19px;
     display: block;
     align-items: center;
     margin-left: auto;
@@ -218,8 +199,8 @@
 }
 
 .picYandex {
-    width: 59.46px;
-    height: 19.57px;
+    width: 59px;
+    height: 19px;
     display: block;
     align-items: center;
     margin-left: auto;
@@ -233,11 +214,10 @@
 .inputErr {
     width: 379px;
     height: 43px;
-
     color: red;
     background: #FFFFFF;
     border: 1px solid #fa0505;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
 }
 
@@ -245,40 +225,33 @@
     width: 203px;
     height: 17px;
     position: absolute;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     display: block;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     letter-spacing: 0.01em;
-
     color: #FF5959;
 }
 
 .buttonLogInValidTrue {
-
     width: 379px;
     height: 59px;
-
     border: none;
     outline: none;
     background: #3b52e6;
     border-radius: 5px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 27px;
-    /* identical to box height */
-
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
 
 }
@@ -294,7 +267,6 @@
 
 
 @media (max-device-width: 1430px) {
-
     .h1Text {
         display: none;
     }
@@ -303,8 +275,6 @@
         display: none;
 
     }
-
-
 }
 
 
@@ -317,6 +287,4 @@
         display: none;
 
     }
-
-
 }
